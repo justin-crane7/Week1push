@@ -1,0 +1,125 @@
+.header {
+    background-color: black;
+    padding: 9px;
+    color: white;
+}
+
+.header-btns {
+    position: relative;
+    text-align: right;
+}
+
+img {
+    max-width: 125px;
+    max-height: 35px;
+}
+ 
+.button-header {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, #1DB954, #191414);
+    
+}
+
+menu {
+    border: none;
+    outline: none;
+
+}
+
+.grid-music-1 {
+    display: inline-flex;
+    column-gap: 10px;
+    row-gap: 10px;
+    overflow-wrap: normal;
+    max-width: 40px;
+    margin: 15px;
+}
+
+.music-1 {
+    margin: 5%;
+    border: solid black;
+    max-width: 14rem;
+    max-height: fit-content;
+    background-color: #ecebe8c0;
+}
+
+.music-1 img {
+    margin: 32px;
+    max-width: 165px;
+    max-height: 165px;
+    overflow: hidden;
+}
+
+p {
+    overflow-wrap: normal;
+    margin-left: 3px;
+    margin-right: 4px;
+    margin-top: 3px;
+    margin-bottom: 4px;
+}
+
+h1, h2, h3, h4 {
+    justify-content: center;
+    position: relative;
+    font-size: larger;
+    margin: 5px;
+}
+
+.grid-music-1 button, .grid-music-2 button {
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.grid-music-2 {
+    display: inline-flex;
+    column-gap: 10px;
+    row-gap: 10px;
+    overflow-wrap: normal;
+    max-width: 40px;
+    margin: 15px;
+}
+
+.music-2 {
+    margin: 5%;
+    border: solid black;
+    max-width: 14rem;
+    max-height: fit-content;
+    background-color: #ecebe8c0;
+}
+
+.music-2 img {
+    margin: 32px;
+    max-width: 165px;
+    max-height: 165px;
+    overflow: hidden;
+}
+
+.footer {
+    background-color: black;
+    margin-top: 20px;
+    border: solid thick black;
+}
+
+.copyright-logo img {
+    max-width: 40px;
+}
+
+.footer button {
+    border: none;
+    text-decoration: none;
+    justify-content: right;
+    border-radius: 20px;
+    display: flex;
+    cursor: pointer;
+    margin-top: -23px;
+    margin-left: auto;
+    position: relative;
+}
+
